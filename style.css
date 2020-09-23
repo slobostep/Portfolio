@@ -11,8 +11,7 @@
     --text-color: rgba(255,255,255,1);
 }
 body{
-    /*background: radial-gradient(var(--color-light),var(--color-dark));*/
-    background: red;
+    background: radial-gradient(var(--color-light),var(--color-dark));
     font-family: 'Montserrat';
 }
 .container{
