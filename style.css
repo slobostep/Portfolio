@@ -4,7 +4,7 @@
     margin: 0;
 }
 :root{
-    --color-dark: rgba(10, 57, 88, 1);
+    --color-dark: rgb(7, 43, 66);
     --color-light: rgba(21, 102, 196, 1);
     --color-o:rgb(211, 81, 131);
     --border-radious: 10px;
