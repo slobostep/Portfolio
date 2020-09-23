@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://kit.fontawesome.com/203a764be4.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <title>Slobodan Radosavljevic</title>
+</head>
+<body>
+
+    <!-- header -->
+
+    <header  class="header" id="header">  
+        <div class="container" id="container-header">
+            <div class="logo">                   
+                <a href="#"> <img src="img/logo.png" class="logo-img"> </a>
+                <div class="hamburger" id="hamburger"></div>
+            </div>
+            <nav class="menu-bar" id="menu-bar">
+                <ul>
+                    <li><a class="" href="#">Home</a></li>                       
+                    <li><a class="" href="#projects">Projects</a></li>
+                    <li><a class="" href="#contact">Contact</a></li>
+                    <li><a class="" href="Slobodan Radosavljević - CV.pdf">cv</a></li>
+                </ul> 
+            </nav> 
+        </div>    
+    </header>
+    
+    
+    <div class="container">
+
+        <!-- main page -->
+
+        <section  class="main-page">
+            <div class="main-page-wrapper">
+                <div class="main-page-text">
+                    <h1>Slobodan Radosavljevic</h1>
+                    <h4>Frontend developer</h4>
+                    <hr>
+                    <p>Hello , my name is Slobodan. I live in the Novi Sad area , Serbia. I went to Faculty of Science in Novi Sad. Specialized in front-end development and design. Looking forward working together. You can check out my work below.</p> 
+                    <ul>
+                        <li><a href="mailto:slobostep@yahoo.com"><i class="fas fa-envelope"></i> slobostep@yahoo.com </a></li>
+                        <li><i class="fas fa-phone"></i> +381607341637 </li>
+                    </ul>
+                    <div class="buttons">
+                        <a href="https://www.linkedin.com/in/slobodan-radosavljevic/">
+                            <button class="btn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/slobostep">
+                            <button class="btn">
+                                <i class="fab fa-github"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="main-page-img">
+                    <img src="img/me.png" >
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- projects -->
+
+        <section id="projects" class="projects">
+            <div class="projects-wrapper">
+                <h1>Projects</h1>
+                <div class="projects-list">
+                    <div class="projects-item">
+                        <img src="img/marbletours.png" class="img" >                 
+                        <div class="btn-container">
+                            <div class="tech-used">
+                                <ul>
+                                    <li>html</li>
+                                    <li>css</li>
+                                    <li>JavaScript</li>
+                                    <li>bootstrap</li>
+                                </ul>
+                            </div>
+                            <div class="btn-container-btn">
+                                <a href="https://github.com/slobostep/Turist-Agency-Site/tree/master/Marbel%20Tours">
+                                    <button class="btn "><i class="fab fa-github"></i></button>
+                                </a>
+                                <a href="https://marbletours.netlify.app/">
+                                    <button class="btn btn-site">Visit site</button>
+                                </a>
+                            </div>
+                        </div>                  
+                    </div>
+                    <div class="projects-item">
+                        <img src="img/kreativisimo.png" class="img">                  
+                        <div class="btn-container">
+                            <div class="tech-used">
+                                <ul>
+                                    <li>html</li>
+                                    <li>css</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                            <div class="btn-container-btn">
+                                <a href="https://github.com/slobostep/Kreativisimo"><button  class="btn "><i class="fab fa-github"></i></button></a>
+                            <a href="https://kreativisimo.netlify.app/"><button  class="btn btn-site">Visit site</button></a>
+                            </div>
+                            
+                        </div>                  
+                    </div>   
+                    <div class="projects-item">
+                        <img src="img/BingieShoeStore.png" class="img">                  
+                        <div class="btn-container">
+                            <div class="tech-used">
+                                <ul>
+                                    <li>html</li>
+                                    <li>css</li>                                    
+                                </ul>
+                            </div>
+                            <div class="btn-container-btn">
+                                <a href="#"><button  class="btn unfinished"><i class="fab fa-github"></i></button></a>
+                            <a href="https://bingieshoestore.netlify.app/"><button  class="btn btn-site">Visit site</button></a>
+                            </div>
+                            
+                        </div>                  
+                    </div>   
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+
+        <section id="contact" class="contact"> 
+                <div class="contact-wrapper">
+                        <h1>Let's build something great!</h1>
+                    <div class="contact-form">
+                        <form id="contactForm" name="PitanjeMeni" method="POST" data-netlify="true">
+                            <p>
+                                <label>Name</label>
+                                <input id="name" type="text " placeholder="Enter your full name" name="Name" required>
+                            </p>
+                            
+                            <p>
+                                <label>E-mail</label>
+                                <input id="email" type="email" placeholder="ex. xyz@gmail.com" name="email" required>
+                            </p>
+                            <p>
+                                <label>Phone</label>
+                                <input id="phone" type="number " placeholder="+381555333" name="phone">
+                            </p>
+                            <p class="full">
+                                <label>What can i do for you?</label>
+                                <textarea id="message" name="message" placeholder="Message" rows="5"></textarea>
+                            </p>
+                            <p class="upload">
+                                <input type="file" id="myfile" name="myfile" placeholder="Upload File" rows="5"></input>
+                            </p>
+                            <p class="full">
+                                <button type="submit">Submit</button>
+                            </p>
+                        </form>
+                    </div> 
+                    <div class="alert">You message has been sent!</div>
+
+                </div>                   
+        </section>
+
+        <!-- footer -->
+
+        <footer>  
+            <div class="footer-wrapper">
+                <hr>
+                <div class="footer-menu">
+                    <div class="footer-menu-text">
+                        <p>
+                            <a href="mailto:slobostep@yahoo.com"><i class="fas fa-envelope"></i> slobostep@yahoo.com</a>
+                        </p>
+                        <p>
+                            <i class="fas fa-phone"></i>+381-60734-1637  <br>
+                        </p>
+                    </div>
+                    <ul>
+                        <li><a href="https://linkedin.com/in/slobodan-radosavljevic"><i class="fab fa-linkedin-in"></i> LinkedIn </a></li>
+                        <li><a href="https://github.com/slobostep"><i class="fab fa-github"></i> GitHub </a> </li>
+                    </ul>
+                </div>
+                <h4>© 2020 Copyright: Slobodan Radosavljevic</h4>
+            </div>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
