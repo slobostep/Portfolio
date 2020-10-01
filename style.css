@@ -6,9 +6,10 @@
 :root{
     --color-dark: rgb(7, 43, 66);
     --color-light: rgba(21, 102, 196, 1);
-    --color-o:rgb(211, 81, 131);
+    --color-o:rgb(255, 145, 77);
     --border-radious: 10px;
     --text-color: rgba(255,255,255,1);
+
 }
 body{
     background: radial-gradient(var(--color-light),var(--color-dark));
@@ -26,15 +27,14 @@ body{
     position: sticky;
     top: 0;
     z-index: 100;
+    
 }
 .header.paint{
     background: var(--color-light);
+    border-bottom: 1px solid var(--color-dark);
 }
-.header.paint .menu-bar ul li a , .header.paint .hamburger {
-    color: var(--text-color);
-}
-.header.paint .menu-bar ul li a:before , .header.paint .logo img{
-    background: var(--color-dark);
+.header.paint.logo-img {
+    background: var(--color-light);
 }
 #container-header{
     padding-top: 1em ;
@@ -54,7 +54,7 @@ body{
 .logo-img {
     max-width: 100%;
     max-height: 100%;
-    background: transparent;
+    /* background: transparent; */
     cursor: pointer;
 }
 .hamburger{
@@ -87,12 +87,8 @@ body{
 }
 .menu-bar ul li{
     list-style: none;
-    padding-left: 5em;
     margin-left: 2em;
-}
-.menu-bar ul li{
     list-style: none;
-    padding-left: .5em;
     text-align: center;
 }
 .menu-bar ul li a{
@@ -146,7 +142,7 @@ body{
     margin-top: 1em;
     font-size: .8em;
     font-weight: 100;
-    text-align: justify;
+    text-align: left;
 }
 .main-page-text h1{
     font-weight: 900;
@@ -192,7 +188,7 @@ body{
 }
 .btn:hover{
     color: var(--color-dark);
-    background: var(--text-color);
+    background: var(--color-o);
     
 }
 .main-page-img{
