@@ -188,7 +188,7 @@ body{
 }
 .btn:hover{
     color: var(--color-dark);
-    background: var(--color-o);
+    background: var(--text-color);
     
 }
 .main-page-img{
