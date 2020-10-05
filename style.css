@@ -2,6 +2,9 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+    focus{
+        outline:none;
+    }
 }
 :root{
     --color-light: rgb(255, 255, 255);
@@ -106,7 +109,8 @@ body{
     transition: transform 300ms ease-in-out;
     transform: scaleX(0);
 } 
-.menu-bar ul li a:hover:before{
+.menu-bar ul li a:hover:before,
+.menu-bar ul li a:focus:before{
     transform: scaleX(1);
 }
 
