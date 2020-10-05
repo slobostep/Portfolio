@@ -11,7 +11,8 @@
 }
 body{
     background: white;
-    font-family: 'Montserrat';
+    /* font-family: 'Montserrat'; */
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     width: 80%;
@@ -123,25 +124,27 @@ body{
     text-align: left;
     color: var(--color-dark);
 }
-.main-page-text h1 , .main-page-text h4, .main-page-text ul li , .main-page-text p , .main-page-text hr{
+.main-page-text h4, .main-page-text ul li , .main-page-text p , .main-page-text hr{
     margin-bottom: 1em;
-    font-weight: 800;
 }
 .main-page-text h1{
     font-weight: 900; 
-    font-size: 1.6em;
+    font-size: 1.5em;
+    margin-bottom: .5em;
 }
 .main-page-text h4{
     font-size: 1em;
     letter-spacing: 9px;
+    font-weight: 700;
 }
 hr { width: 70%; }
 
 .main-page-text p{
     width: 70%;
-    font-size: .8em;
+    font-weight: 600;
+    font-size: .7em;
     text-align: left;
-    line-height: 1.5em;
+    line-height: 1.8em;
 }
 .main-page-text ul {
     margin-top: 2em;
