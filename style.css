@@ -414,12 +414,15 @@ footer hr{
         flex-direction: column;
         padding: 0;
     }
-    .main-page-text ,  .main-page-text p{
+    .main-page-text {
         width: 100% !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+    }
+    .main-page-text p{
         text-align: center;
     }
     .buttons{
