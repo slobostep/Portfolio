@@ -28,8 +28,7 @@ body{
 }
 
 #container-header{
-    padding-top: 1em ;
-    padding-bottom: .5em;
+    padding: 1em 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,15 +36,14 @@ body{
 .logo{
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    margin-left: 0%;
+    align-items: center;
     width: 100%;
+    margin-left: 0%;
     height: 2em;
 }
-.logo-img {
-    max-width: 100%;
-    max-height: 100%;
-    cursor: pointer;
+.logo img {
+    width: auto;
+    height: 100%;
 }
 .hamburger{
     position: relative;
@@ -91,7 +89,6 @@ body{
     color: var(--color-light);
     transition: 0.2s  ease-in-out;
     display: block;
-    outline:none;
 }
 .menu-bar ul li a:hover{
     opacity: .9;
@@ -107,8 +104,7 @@ body{
     transition: transform 300ms ease-in-out;
     transform: scaleX(0);
 } 
-.menu-bar ul li a:hover:before,
-.menu-bar ul li a:focus:before{
+.menu-bar ul li a:hover:before{
     transform: scaleX(1);
 }
 
