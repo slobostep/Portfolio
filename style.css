@@ -11,7 +11,7 @@
 }
 body{
     background: white;
-    /* font-family: 'Montserrat'; */
+    
     font-family: 'Poppins', sans-serif;
 }
 .container{
@@ -140,6 +140,7 @@ body{
 hr { width: 70%; }
 
 .main-page-text p{
+    opacity: .8;
     width: 70%;
     font-weight: 600;
     font-size: .7em;
